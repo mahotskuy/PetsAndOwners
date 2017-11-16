@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetsAndOwners", "PetsAndOwners\PetsAndOwners.csproj", "{6D7B7602-494D-4F00-9213-C037671562AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBManager", "DBManager1\DBManager.csproj", "{5BB6210B-B39F-4560-AA80-C0A2A8EDBDBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetShopCommon", "PetShopCommon\PetShopCommon.csproj", "{D3A7AC8C-3054-4280-9B61-0A8BE790C9CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D7B7602-494D-4F00-9213-C037671562AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D7B7602-494D-4F00-9213-C037671562AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D7B7602-494D-4F00-9213-C037671562AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D7B7602-494D-4F00-9213-C037671562AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB6210B-B39F-4560-AA80-C0A2A8EDBDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB6210B-B39F-4560-AA80-C0A2A8EDBDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB6210B-B39F-4560-AA80-C0A2A8EDBDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB6210B-B39F-4560-AA80-C0A2A8EDBDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A7AC8C-3054-4280-9B61-0A8BE790C9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A7AC8C-3054-4280-9B61-0A8BE790C9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A7AC8C-3054-4280-9B61-0A8BE790C9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A7AC8C-3054-4280-9B61-0A8BE790C9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

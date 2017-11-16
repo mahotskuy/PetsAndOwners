@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PetsAndOwners">
+  <DataContextMoniker Name="/PetsAndOwnersDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8a78a3d4-23af-4c36-86aa-c254d7142b86" absoluteBounds="0.75, 1.125, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/PetsAndOwnersDataContext/Animal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d381acc1-4546-49ad-a736-711bc872e3f4" absoluteBounds="0.765, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ae71b984-3086-443b-a34f-9421914aae7a" absoluteBounds="3.5, 0.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/PetsAndOwnersDataContext/Pet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4b2a5797-8b8a-4d6b-9500-f235dc91d5a2" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bb355421-25ad-4067-82b2-8c88fcf915ad" absoluteBounds="0.75, 4, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/PetsAndOwnersDataContext/Owner" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b606e1c-30b2-4eff-8084-27a853ff1273" absoluteBounds="0.765, 4.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.72199625651042); (3.5 : 1.72199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PetsAndOwnersDataContext/Animal/Animal_Pet" />
+      <nodes>
+        <classShapeMoniker Id="8a78a3d4-23af-4c36-86aa-c254d7142b86" />
+        <classShapeMoniker Id="ae71b984-3086-443b-a34f-9421914aae7a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.69314697265625); (4.5 : 4.69314697265625); (4.5 : 2.45359537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PetsAndOwnersDataContext/Owner/Owner_Pet" />
+      <nodes>
+        <classShapeMoniker Id="bb355421-25ad-4067-82b2-8c88fcf915ad" />
+        <classShapeMoniker Id="ae71b984-3086-443b-a34f-9421914aae7a" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
